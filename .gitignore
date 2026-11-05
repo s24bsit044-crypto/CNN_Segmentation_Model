@@ -1,0 +1,12 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+.pytest_cache/
+.ipynb_checkpoints/
+runs/
+.DS_Store
+# Weights are normally pulled from Hugging Face. To commit your own weights
+# (e.g. models/best.pt, ~6 MB) remove the next line.
+# models/*.pt
